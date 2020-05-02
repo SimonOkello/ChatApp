@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'widget-tweaks',
+    'widget_tweaks',
     'rest_framework',
     'chat.apps.ChatConfig',
 ]
@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'ChatApp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ChatDb',
+        'NAME': 'chatdb',
         'USER': 'admin',
         'PASSWORD': 'Private@123!',
         'HOST': 'localhost',
